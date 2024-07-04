@@ -122,7 +122,7 @@ class AliceDioInterceptor extends InterceptorsWrapper {
 
   /// Handles error and adds data to alice http call
   @override
-  void onError(DioException error, ErrorInterceptorHandler handler) {
+  void onError(DioError error, ErrorInterceptorHandler handler) {
     final httpError = AliceHttpError()..error = error.toString();
     if (error is Error) {
       final basicError = error as Error;
