@@ -17,7 +17,7 @@ dependencies:
   rxdart: ^0.27.7
 
   path_provider: ^2.0.15
-  permission_handler: ^11.0.1
+  permission_handler: ^10.3.0
   package_info_plus: ^4.0.2
   # open_filex: ^4.3.2
   sensors_plus: ^3.0.2
